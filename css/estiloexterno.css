@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+h2 {
+    color: deeppink;
+    background-color: aquamarine;
+}
+
+p {
+    font-family: Arial,Helvetica, sans-serif;
+}
+
+button {
+    color: deeppink;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+/*Para comentarios es esto en css*/
