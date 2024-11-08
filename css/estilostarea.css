@@ -1,0 +1,47 @@
+* {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: rgb(58, 0, 128);
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(17, 1, 9);
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 46, 132);
+    border-radius: 10px;
+}
+
+nav{
+    color: brown;
+
+}
+
+ul{
+    color:blue
+}
+
+p{
+    font-style: oblique;
+}
+
+footer{
+    margin-top: 5ch;
+    background-color: rgb(255, 255, 255);
+}
+
+
