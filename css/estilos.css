@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    /*esto permite establecer que el contenido se va a distribuir visualmente en una 
+    cuadricula*/
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    padding: 15px;
+    border: solid rgb(245, 32, 213);
+    border-radius: 35px;
+    background: rgba(245, 32, 213, 0.374);
+    box-shadow: 15px 10px 5px 5px rgb(97, 2, 87);
+}
+
+.display {
+    grid-column: span 4;
+    padding: 15px;
+    border: solid rgb(245,32,213);
+    background: rgb(255, 255,255);
+    border-radius: 35px;
+    text-align: right;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.colum-2{
+    grid-column: span 2;
+}
